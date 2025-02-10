@@ -1,0 +1,26 @@
+{
+    "name": "nox/sdk",
+    "description": "An SDK made with PHP to interact with the Checkout API and V2 API in a simple and efficient way",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Nox\\Sdk\\": "src/",
+            "Nox\\TestClient\\": "test_client/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "slim/slim": "^4.0",
+        "slim/psr7": "^1.6",
+        "react/http": "^1.9",
+        "react/socket": "^1.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
