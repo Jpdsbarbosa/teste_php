@@ -1,9 +1,10 @@
 {
-    "name": "nox/sdk",
+    "name": "teste/sdk",
     "description": "An SDK made with PHP to interact with the Checkout API and V2 API in a simple and efficient way",
     "type": "library",
     "version": "1.0.0",
     "autoload": {
+
         "psr-4": {
             "Nox\\Sdk\\": "src/",
             "Nox\\TestClient\\": "test_client/"
